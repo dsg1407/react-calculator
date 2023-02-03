@@ -1,0 +1,122 @@
+[
+  {
+    "order": "1",
+    "type": "function",
+    "textName": "CE",
+    "equation": "erase"
+  },
+  {
+    "order": "2",
+    "type": "function",
+    "textName": "C",
+    "equation": "eraseAll"
+  },
+  {
+    "order": "3",
+    "type": "functionIcon",
+    "textName": "Percent",
+    "equation": "percent"
+  },
+  {
+    "order": "4",
+    "type": "equation",
+    "textName": "Divide",
+    "equation": "/"
+  },
+  {
+    "order": "5",
+    "type": "number",
+    "textName": "7",
+    "equation": "7"
+  },
+  {
+    "order": "6",
+    "type": "number",
+    "textName": "8",
+    "equation": "8"
+  },
+  {
+    "order": "7",
+    "type": "number",
+    "textName": "9",
+    "equation": "9"
+  },
+  {
+    "order": "8",
+    "type": "equation",
+    "textName": "X",
+    "equation": "*"
+  },
+  {
+    "order": "9",
+    "type": "number",
+    "textName": "4",
+    "equation": "4"
+  },
+  {
+    "order": "10",
+    "type": "number",
+    "textName": "5",
+    "equation": "5"
+  },
+  {
+    "order": "11",
+    "type": "number",
+    "textName": "6",
+    "equation": "6"
+  },
+  {
+    "order": "12",
+    "type": "equation",
+    "textName": "Minus",
+    "equation": "-"
+  },
+  {
+    "order": "13",
+    "type": "number",
+    "textName": "1",
+    "equation": "1"
+  },
+  {
+    "order": "14",
+    "type": "number",
+    "textName": "2",
+    "equation": "2"
+  },
+  {
+    "order": "15",
+    "type": "number",
+    "textName": "3",
+    "equation": "3"
+  },
+  {
+    "order": "16",
+    "type": "equation",
+    "textName": "Plus",
+    "equation": "+"
+  },
+  {
+    "order": "17",
+    "type": "functionIcon",
+    "textName": "PlusMinus",
+    "equation": "negative"
+  },
+  {
+    "order": "18",
+    "type": "number",
+    "textName": "0",
+    "equation": "0"
+  },
+  {
+    "order": "19",
+    "type": "number",
+    "textName": ",",
+    "equation": "."
+  },
+  {
+    "order": "20",
+    "type": "result",
+    "textName": "Equals",
+    "equation": "result"
+  }
+]

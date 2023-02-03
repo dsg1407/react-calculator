@@ -1,7 +1,7 @@
 import { Equals } from "phosphor-react"
 import "./styles/global.css"
 
-import { CalculatorButton } from "./components/calculatorButton"
+import { CalculatorButton } from "./components/CalculatorButton"
 
 import keys from "./assets/keyboard.json"
 

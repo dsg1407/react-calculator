@@ -1,3 +1,4 @@
+import { HeartStraight } from "phosphor-react"
 import "./styles/global.css"
 
 import { CalcProvider } from "./context/CalcContext"
@@ -10,7 +11,7 @@ import keys from "./assets/keyboard.json"
 export function App() {
   return (
     <CalcProvider>
-      <div className="bg-gradient-to-r from-background-gradient-1 to-background-gradient-2 h-screen flex items-center justify-center ">
+      <div className="bg-gradient-to-r from-background-gradient-1 to-background-gradient-2 h-screen flex items-center justify-center">
         <main className="flex flex-col gap-6 pt-14 pb-8 px-8 bg-background-calculator rounded-6xl w-96 text-zinc-200 font-rubik shadow-calculator">
           <ResultScreen />
           <section
@@ -30,6 +31,19 @@ export function App() {
             })}
           </section>
         </main>
+        <footer className="absolute bottom-0 font-rubik">
+          <span className="flex gap-1 items-center justify-center mb-1 text-gray-300 text-sm">
+            Made with
+            <HeartStraight className="text-pink-400" />
+            <a
+              href="https://github.com/dsg1407"
+              target="_blank"
+              className="hover:text-cyan-400 transition-all"
+            >
+              DsG
+            </a>
+          </span>
+        </footer>
       </div>
     </CalcProvider>
   )
